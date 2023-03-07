@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hybrid TestNG Automation for tutorialsninja">
+<listeners>
+<listener class-name="com.tutorialsninja.qa.listeners.mylisteners"/>
+</listeners>
+  <test thread-count="5" name="Testcases">
+    <classes>
+      <class name="com.tutorialsninja.qa.testcases.registrationTest"/>
+       <class name="com.tutorialsninja.qa.testcases.loginTest"/>
+        <class name="com.tutorialsninja.qa.testcases.searchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
